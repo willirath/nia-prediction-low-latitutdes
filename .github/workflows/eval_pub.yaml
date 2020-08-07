@@ -35,6 +35,7 @@ jobs:
         run: |
           mkdir -p ./public
           cp ci_out/*.html ./public/.
+          cd ./public && ln -s 03_plot_forecast_data.html index.html
       - name: Deploy pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
