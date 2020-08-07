@@ -20,7 +20,7 @@ jobs:
         run: bash -c "conda init bash"
       - name: Run all notebooks with papermill
         run: |
-          bash -c ". ${HOME}/.bashrc && conda activate notebook && .ci/run_all_notebooks.py --dir . --out ci_out/" || echo "failed"
+          bash -c ". ${HOME}/.bashrc && conda activate notebook && .ci/run_all_notebooks.py --dir . --out ci_out/"
       - name: Convert to HTML
         if: ${{ always() }}
         run: |
