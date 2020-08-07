@@ -1,6 +1,8 @@
 name: eval and publish notebooks
 
 on:
+  schedule:
+    - cron: "0 5/6 * * *"
   push:
     branches:
       - master
