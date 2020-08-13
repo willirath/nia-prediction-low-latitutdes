@@ -1,3 +1,6 @@
 .ipynb_checkpoints
 dask-worker-space
 *.zarr
+.ftp_cred
+raw_buoy_data
+tmp_buoy_data.*
