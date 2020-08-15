@@ -4,3 +4,5 @@ dask-worker-space
 .ftp_cred
 raw_buoy_data
 tmp_buoy_data.*
+tmp_buoy_data
+tmp_buoy_positions.csv
