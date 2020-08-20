@@ -2,10 +2,10 @@ name: eval and publish notebooks
 
 on:
   schedule:
-    - cron: "30 0 * * *"
-    - cron: "30 6 * * *"
-    - cron: "30 12 * * *"
-    - cron: "30 18 * * *"
+    - cron: "30 4 * * *"
+    - cron: "30 10 * * *"
+    - cron: "30 16 * * *"
+    - cron: "30 22 * * *"
   push:
     branches:
       - master
