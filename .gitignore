@@ -6,3 +6,5 @@ raw_buoy_data
 tmp_buoy_data.*
 tmp_buoy_data
 tmp_buoy_positions.csv
+tmp_mimoc_mld.nc
+mimoc
