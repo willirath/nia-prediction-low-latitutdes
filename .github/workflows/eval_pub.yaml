@@ -14,7 +14,7 @@ on:
       - master
 
 jobs:
-  build:
+  run_forecast:
     runs-on: ubuntu-18.04
     container:
       image: docker://esmvfc/esm-vfc-stacks:latest
